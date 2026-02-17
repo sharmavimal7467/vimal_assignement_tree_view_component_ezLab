@@ -1,5 +1,3 @@
-// import { TreeNodeModel } from "../components/TreeView/tree.types";
-
 import type { TreeNodeModel } from "../components/TreeView/tree.types";
 
 export const initialData: TreeNodeModel[] = [

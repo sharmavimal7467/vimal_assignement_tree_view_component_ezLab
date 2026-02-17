@@ -1,6 +1,5 @@
 import { useState } from "react";
 import type { TreeNodeModel } from "../components/TreeView/tree.types";
-// import { TreeNodeModel } from "../components/TreeView/tree.types";
 
 export const useTree = (initialData: TreeNodeModel[]) => {
   const [tree, setTree] = useState<TreeNodeModel[]>(initialData);
